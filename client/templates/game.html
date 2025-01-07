@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Juego de Atrapar Basura</title>
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="scoreDisplay">Puntos: 0</div>
+        <div id="livesDisplay">Vidas: 3</div>
+        <button id="pauseButton">Pausar</button>
+        <div id="player"></div>
+        
+        <div id="pauseScreen">
+            <h1>Juego Pausado</h1>
+            <div id="pauseScreenScore">Puntos: 0</div>
+            <button id="resumeButton">Continuar</button>
+            <button id="backButton"><a href="./index.html">Volver al Inicio</a></button>
+        </div>
+        
+        <div id="gameOverScreen">
+            <h1>¡Perdiste!</h1>
+            <p id="finalScoreDisplay">Puntuación final: 0</p>
+            <button id="restartButton">Volver a Jugar</button>
+            <button id="backButton"><a href="./index.html">Volver al Inicio</a></button>
+        </div>
+    </div>
+    <script src="../scripts/gamescript.js"></script>
+</body>
+</html>
