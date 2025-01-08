@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 
-let playerSchema = new Schema({
+let playerSchema = new mongoose.Schema({
     username: { 
         type: String, 
         required: true, 
@@ -16,6 +16,6 @@ let playerSchema = new Schema({
     }
 });
 
-let Player = mongoose.model('Player', playerSchema);
+let Player = new mongoose.model('Player', playerSchema);
 
 module.exports = Player;

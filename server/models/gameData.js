@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 
-let gameDataSchema = new Schema({
+let gameDataSchema = new mongoose.Schema({
     player: { 
         type: Schema.Types.ObjectId, 
         ref: 'Player',
@@ -20,6 +20,6 @@ let gameDataSchema = new Schema({
     }
 });
 
-let GameData = mongoose.model('GameData', gameDataSchema);
+let GameData = new mongoose.model('GameData', gameDataSchema);
 
 module.exports = GameData;
