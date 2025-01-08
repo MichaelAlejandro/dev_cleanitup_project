@@ -23,12 +23,12 @@ Antes de iniciar, asegúrate de tener instalados:
 ### 1. Clonar el repositorio
 Clona el repositorio en tu máquina local:
 ~~~
-git clone https://github.com/MichaelAlejandro/CleanItUp.git  
+git clone https://github.com/MichaelAlejandro/dev_cleanitup_project.git
 ~~~
 ### 2. Instalar Dependencias
 Navega al directorio del proyecto y ejecuta:
 ~~~
-cd ./CleanItUp/server 
+cd .\dev_cleanitup_project\server\
 ~~~
 ~~~
 npm install
